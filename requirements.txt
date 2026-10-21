@@ -1,0 +1,8 @@
+# 核心依赖（XML 直改引擎必需）
+lxml>=4.9.0
+
+# openpyxl 引擎必需（也是列号转换工具）
+openpyxl>=3.1.0
+
+# COM 引擎可选（仅 Windows + 已安装 WPS/Excel 时需要）
+# pywin32>=306 ; sys_platform == "win32"
